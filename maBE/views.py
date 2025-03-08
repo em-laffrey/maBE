@@ -1,4 +1,4 @@
-from models import Client
+from . import Client
 from serializers import ClientSerializer
 
 from rest_framework import viewsets
