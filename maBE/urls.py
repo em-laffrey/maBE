@@ -21,5 +21,5 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', views.ClientViewSet.as_view({'get': 'list'})),
+    path('', views.ClientViewSet.as_view({'get': 'list'})),
 ]
